@@ -1,0 +1,95 @@
+.profile-content {
+  max-width: 680px;
+  max-height: 327px;
+
+}
+
+.container {
+
+  background-image: url(../assets/images/Background_Intro.png);
+  background-size: cover;
+  width: 1343px;
+  height: 750px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  text-align: center;
+
+}
+
+#info {
+  /* Info */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 80px;
+
+  position: absolute;
+  width: 1040px;
+  height: 447px;
+  left: calc(50% - 1040px/2);
+  top: 80px;
+
+}
+
+.profile-pic-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid var(--red);
+  padding: 6px;
+  margin-bottom: 56px;
+}
+
+.title-content h1,
+.title-content h2 {
+  margin: 20px 0;
+}
+
+.tags {
+  margin-top: 60px;
+  /* Tags */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 754px;
+  height: 40px;
+
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.tags #tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 114px;
+  height: 40px;
+
+  background: var(--gray-300);
+  border-radius: 999px;
+
+}
