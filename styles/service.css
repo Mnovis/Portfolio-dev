@@ -1,0 +1,30 @@
+.services {
+  max-width: 1366px;
+  max-height: 480px;
+  text-align: center;
+}
+
+#svc-title {
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 56px;
+
+  .subtitle-red {
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+  }
+}
+
+
+#svc-grid {
+  margin: auto;
+  width: 888px;
+  height: 155px;
+}
+
+.card-grid {
+  margin-left: 80px;
+  text-align: start;
+  margin-top: 15px;
+ }
