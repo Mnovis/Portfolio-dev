@@ -1,8 +1,57 @@
 .projects {
+  width: 1336px;
+  height: 917px;
   background-color: #0D0E11;
 }
 
-#services {
-  max-width: 355px;
-  max-height: 61px;
+#work {
+  text-align: center;
+
+  margin-top: 129px;
+
+  .subtitle-red {
+    padding-top: 129px;
+  }
+}
+
+
+#project-list {
+  max-width: 1336px;
+  max-height: 917px;
+}
+
+
+
+#figure-section {
+  max-width: 1040px;
+  max-height: 584px;
+  padding-left: 163px;
+  padding-top: 56px;
+
+  .card {
+    border-radius: 12px;
+
+    background-color: var(--gray-300);
+    width: 330px;
+    height: 280px;
+  }
+
+  .card:hover {
+    border: 1.5px solid var(--gray-400);
+  }
+
+  .card img {
+    margin: 12px;
+    border-radius: 8px;
+    max-width: 306px;
+    max-height: 156px;
+  }
+
+  .card .title-sm {
+    margin: 16px 20px 8px 16px;
+  }
+
+  .card .text-sm {
+    margin: 0px 16px 20px 16px;
+  }
 }

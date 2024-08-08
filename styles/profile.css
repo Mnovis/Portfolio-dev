@@ -8,7 +8,7 @@
 
   background-image: url(../assets/images/Background_Intro.png);
   background-size: cover;
-  width: 1343px;
+  width: 1336px;
   height: 750px;
   flex: none;
   order: 0;
@@ -86,17 +86,16 @@
   padding: 8px 16px;
   gap: 8px;
 
-
   background: var(--gray-300);
   border-radius: 999px;
 }
 
 .down-button {
+  margin-top: 129px;
   position: absolute;
   width: 32px;
   height: 32px;
   left: calc(50% - 32px/2);
   top: 580px;
-
 
 }
