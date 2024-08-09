@@ -1,7 +1,8 @@
 .services {
-  max-width: 1366px;
-  max-height: 480px;
+  width: 1330px;
+  height: 680px;
   text-align: center;
+  padding: 88px 120px;
 }
 
 #svc-title {
@@ -27,4 +28,4 @@
   margin-left: 80px;
   text-align: start;
   margin-top: 15px;
- }
+}

@@ -1,7 +1,7 @@
 :root {
   /* Principal */
 
-  --red: #E3646E;
+  --red: hsl(355, 69%, 64%);
   --purple: #BB72E9;
   --blue: #3996DB;
   --green: #82BC4F;
@@ -55,6 +55,11 @@
 .subtitle {
   font: var(--subtitle);
   color: var(--gray-500);
+}
+
+.subtitle-purple {
+  font: var(--subtitle);
+  color: var(--purple);
 }
 
 .subtitle-red {
